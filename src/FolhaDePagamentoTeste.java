@@ -21,12 +21,15 @@ public class FolhaDePagamentoTeste {
 		
 		System.out.printf("%n%s%n%s: %,.2f%n%n", funbase, "recebeu", funbase.calculaGanhos());
 		
+		System.out.printf("%n%s%n%s: %,.2f%n%n", funpeca, "recebeu", funpeca.calculaGanhos());
+		
 		Funcionario[] funcionarios = new Funcionario[5];
 		
 		funcionarios[0] = funassalariado;
 		funcionarios[1] = funhorario;
 		funcionarios[2] = funcomissionado;
 		funcionarios[3] = funbase;
+		funcionarios[4] = funpeca;
 		
 		System.out.println("Salarios do funcionários processados polimorficamente:");
 		
