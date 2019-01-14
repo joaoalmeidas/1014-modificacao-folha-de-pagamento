@@ -8,6 +8,8 @@ public class FolhaDePagamentoTeste {
 		FuncionarioHorario funhorario = new FuncionarioHorario("Maria", "Silveira", "51645422345", 40, 25);
 		FuncionarioComissionado funcomissionado = new FuncionarioComissionado("Mariana", "Freitas", "12254568754", 500000, .05);
 		FuncionarioBaseMaisComissao funbase = new FuncionarioBaseMaisComissao("Jorge", "Wilstermann", "12354648454", 500000, .05, 500);
+		FuncionarioPeca funpeca = new FuncionarioPeca("Juan Roman", "Riquelme", "545132544133", 98, 13.5);
+		
 		
 		System.out.println("Salarios do funcionários processados individualmente:");
 		
@@ -19,7 +21,7 @@ public class FolhaDePagamentoTeste {
 		
 		System.out.printf("%n%s%n%s: %,.2f%n%n", funbase, "recebeu", funbase.calculaGanhos());
 		
-		Funcionario[] funcionarios = new Funcionario[4];
+		Funcionario[] funcionarios = new Funcionario[5];
 		
 		funcionarios[0] = funassalariado;
 		funcionarios[1] = funhorario;
